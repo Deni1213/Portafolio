@@ -1,0 +1,91 @@
+body{
+    background-color: #3e3e3e;
+    box-sizing: border-box;
+    font-family: 'Audiowide', sans-serif;
+}
+h2{
+    color: #39EED3;
+    text-shadow: 0px 4px 4px #39EED3;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: #FFF;
+}
+/*navbar*/
+.navText{
+    color: #20E8CF;
+    font-size: 40px;
+}
+/*sección home*/
+#logoHome{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.cardBodyHome{
+    background-color: #4C9394;
+    width: 300px;
+    height: 290px;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    
+}
+/*Skills*/
+/*Proyectos*/
+/*Contáctame*/
+#nombreForm{
+border-radius: 50px;
+border: 3.467px solid #20E8CF;
+background: rgba(216, 216, 216, 0.40);
+}
+#apellidoForm{
+border-radius: 50px;
+border: 3.467px solid #20E8CF;
+background: rgba(216, 216, 216, 0.40);
+}
+#correoElectronico{
+border-radius: 50px;
+border: 3.467px solid #20E8CF;
+background: rgba(216, 216, 216, 0.40);
+}
+#mensajeForm{
+align-items: center;
+flex-shrink: 0;
+border: 3.467px solid #20E8CF;
+background: rgba(216, 216, 216, 0.40);
+height: 360px;
+}
+::placeholder{
+    color: #f4f4f4;
+}
+.btn-form{
+border-radius: 50px;
+border: 3.467px solid #20E8CF;
+background: rgba(216, 216, 216, 0.63);
+}
+/*Footer*/
+footer{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    align-items: flex-end;
+   
+}
+footer>p{
+    font-size: 16px;
+    
+}
+.botonFooter{
+    color: #f4f4f4;
+    font-size: 20px; 
+    
+}
+.aFooter{
+    color: #fff;
+    text-decoration: none;
+}
+
+

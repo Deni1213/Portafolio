@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway:wght@100&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg d-flex justify-content-end ">
+        <div class="container-fluid ">
+          <a class="navbar-brand ms-5" id="logoHome" href="./index.html">Portafolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="justify-content-end nav-underline  collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-4">
+              <li class="nav-item mx-4">
+                <a class="nav-link navText" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-itemmx-4">
+                <a class="nav-link navText" href="#">Skills</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link navText" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navText" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Sección Home-->
+      <section id="home">
+        <div class="card mb-3 bg-transparent cardHome" style="max-width:100%; padding: 50px;" >
+          <div class="row g-0 ">
+            <div class="col-md-4">
+              <img src="./src/imagenes/Denisse de Esesarte.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body cardBodyHome" style="max-width:100%">
+                <h2 class="card-title">Denisse De Esesarte Silva</h2>
+                <p class="card-text">¡Hola a todos! soy una Lic. en QFB con gusto por el desarrollo web...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+      <!--Sección skills-->
+      <section id="skills">
+          <h2>Skills</h2>
+          <h4>Habilidades Técnicas</h4>
+          <div class="card-group">
+              <div class="card mx2 bg-transparent" style="width: 18rem;">
+                <img src="./src/logo/html logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+
+              </div>
+              <div class="card mx-2 bg-transparent" style="width: 18rem;">
+                <img src="./src/logo/CSS3_logo.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+
+              </div>
+              <div class="card mx-2 bg-transparent" style="width: 18rem;">
+                <img src="./src/logo/js logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+          </div>
+        </div>
+          <h4>Herramientas</h4>
+      </section>
+      <!--Sección proyectos-->
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://maravillateam.github.io/centro-comunitario/"><img src="./src/imagenes/Centro comunitario.png" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!--Sección contacto-->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form class="row g-3">
+              <div class="col-md-4">
+                <label for="nombreForm" class="form-label"></label>
+                <input type="nombre" class="form-control" id="nombreForm" aria-describedby="emailHelp " placeholder="Nombre"> 
+              </div>
+              <div class="col-md-4 ">
+                <label for="apellidoForm" class="form-label"></label>
+                <input type="text" class="form-control" id="apellidoForm" placeholder="Apellido">
+              </div>
+              <div class="col-md-4 ">
+                <label for="correoElectronico" class="form-label"></label>
+                <input type="email" class="form-control" id="correoElectronico" placeholder="Correo electrónico">
+              </div>
+          
+          <div class="col-12">
+            <label for="mensajeForm" class="form-label"></label>
+            <input type="text" class="form-control" id="mensajeForm" placeholder="Escribe aquí tu mensaje">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-form col-md-12 mt-2">Enviar</button>
+          </div>
+        </form>
+      </section>
+  <!--Footer-->
+      <footer class="foot d-flex flex-row justify-content-between">
+        <p>Generation 2023</p>
+        <div class="botonesFooter">
+          <button type="button" class="btn botonFooter"><a href="https://github.com/Deni1213" class="aFooter"><i class="bi bi-github"></a></i></button>
+          <button type="button" class="btn botonFooter"><a href="https://www.linkedin.com/in/deesesartedenisse/" class="aFooter"><i class="bi bi-linkedin"></a></i></button>
+        </div>
+        <p>Denisse De Esesarte Silva</p>
+      </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
