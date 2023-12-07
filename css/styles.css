@@ -15,7 +15,7 @@ h4{
 /*navbar*/
 .navText{
     color: #20E8CF;
-    font-size: 40px;
+    font-size: 20px;
 }
 /*sección home*/
 #logoHome{
@@ -59,14 +59,26 @@ border: 3.467px solid #20E8CF;
 background: rgba(216, 216, 216, 0.40);
 height: 360px;
 }
-::placeholder{
+/*placeholder*/
+#nombreForm::placeholder{
+    color: #f4f4f4;
+    }
+ #apellidoForm::placeholder{
+    color: #f4f4f4;
+    }
+#correoElectronico::placeholder{
+    color: #f4f4f4;
+}
+#mensajeForm::placeholder{
     color: #f4f4f4;
 }
 .btn-form{
 border-radius: 50px;
 border: 3.467px solid #20E8CF;
 background: rgba(216, 216, 216, 0.63);
+color: #f4f4f4;
 }
+
 /*Footer*/
 footer{
     color: #FFF;
@@ -88,4 +100,10 @@ footer>p{
     text-decoration: none;
 }
 
-
+/*validaciones*/
+.alertaForm{
+    font-family: 'Roboto', sans-serif;
+}
+.correo-alert {
+    background-color: rgba(220, 53, 69, 0.8); /* rgba representa el color en formato rojo, verde, azul y alfa (opacidad) */
+}
